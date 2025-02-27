@@ -107,7 +107,6 @@
                         <span class="project-tag">Socket.io</span>
                     </div>
                     <div class="project-links">
-                        <a href="#" target="_blank">Ver Demo</a>
                         <a href="#" target="_blank">GitHub</a>
                     </div>
                 </div>
@@ -126,7 +125,7 @@
                         <span class="project-tag">MySQL</span>
                     </div>
                     <div class="project-links">
-                        <a href="https://www.udemy.com/certificate/UC-42733ebe-3204-4887-81be-e128caa9079b/" target="_blank">Link do Certificado</a>
+                        <a href="" target="_blank">GitHub</a>
                     </div>
                 </div>
             </div>
@@ -142,7 +141,7 @@
                         <span class="project-tag">C#</span>
                     </div>
                     <div class="project-links">
-                        <a href="https://www.udemy.com/certificate/UC-eb53084b-64d0-4ac8-ae01-1231e250ddb5/" target="_blank">Link Do Certificado</a>
+                        <a href="" target="_blank">GitHub</a>
                     </div>
                 </div>
             </div>
@@ -160,17 +159,17 @@
             </div>
             <div class="education-card">
                 <div class="education-period">2025</div>
-                <h3 class="education-degree">Desenvolvimento Web com PHP e Banco de Dados MySQL</h3>
-                <div class="education-institution">Udemy</div>
-                <p>O curso de PHP e MySQL proporcionou uma compreensão aprofundada de como criar soluções dinâmicas e interativas na web. Através da utilização de PHP, foi possível desenvolver funcionalidades de back-end, enquanto o MySQL foi empregado para o gerenciamento e armazenamento de dados em bancos de dados relacionais. A experiência adquirida permitiu entender como integrar essas tecnologias, criando sistemas eficientes e escaláveis, como a gestão de eventos de alarmes e imagens de câmeras em soluções de segurança eletrônica.</p>
-            </div>
-            <div class="education-card">
-                <div class="education-period">2025</div>
                 <h3 class="education-degree">Basic FrontEnd</h3>
                 <div class="education-institution">Descomplica</div>
                 <p>Conhecimento em HTML, CSS e JavaScript pormanipulação do DOM, consumo de APIs e boas práticas de acessibilidade . Famíliaframeworks e bibliotecas como Bootstrap e React , alémGit/GitHub . Com</p>
+            </div>
+            <div class="education-card">
+                <div class="education-period">2025</div>
+                <h3 class="education-degree">Desenvolvimento Web com PHP e Banco de Dados MySQL</h3>
+                <div class="education-institution">Udemy</div>
+                <p>O curso de PHP e MySQL proporcionou uma compreensão aprofundada de como criar soluções dinâmicas e interativas na web. Através da utilização de PHP, foi possível desenvolver funcionalidades de back-end, enquanto o MySQL foi empregado para o gerenciamento e armazenamento de dados em bancos de dados relacionais. A experiência adquirida permitiu entender como integrar essas tecnologias, criando sistemas eficientes e escaláveis, como a gestão de eventos de alarmes e imagens de câmeras em soluções de segurança eletrônica.</p>
                 <div class="link-certification">
-                    <a href="https://www.udemy.com/certificate/UC-eb53084b-64d0-4ac8-ae01-1231e250ddb5/" target="_blank">Link Do Certificado</a>
+                    <a href="https://www.udemy.com/certificate/UC-42733ebe-3204-4887-81be-e128caa9079b/" target="_blank">Link Do Certificado</a>
                     </div>
             </div>
             <div class="education-card">
@@ -225,25 +224,26 @@
             </div>
             <div class="contact-form">
                 <h3>Envie uma Mensagem</h3>
-                <form id="contact-form">
+                <form id="contact-form" action="https://formspree.io/f/xnnjeark" method="POST">
                     <div class="form-group">
                         <label for="name">Nome</label>
-                        <input type="text" id="name" class="form-control" required>
+                        <input type="text" id="name" name="name" class="form-control" required>
                     </div>
                     <div class="form-group">
                         <label for="email">Email</label>
-                        <input type="email" id="email" class="form-control" required>
+                        <input type="email" id="email" name="email" class="form-control" required>
                     </div>
                     <div class="form-group">
                         <label for="subject">Assunto</label>
-                        <input type="text" id="subject" class="form-control" required>
+                        <input type="text" id="subject" name="subject" class="form-control" required>
                     </div>
                     <div class="form-group">
                         <label for="message">Mensagem</label>
-                        <textarea id="message" class="form-control" required></textarea>
+                        <textarea id="message" name="message" class="form-control" required></textarea>
                     </div>
                     <button type="submit" class="btn-submit">Enviar Mensagem</button>
                 </form>
+                
             </div>
         </div>
     </section>
